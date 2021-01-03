@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for checking wether the project has yarn or not",
   "main": "App.js",
+  "bin": {
+    "yarn-cli": "cli.js"
+  },
   "dependencies": {
     "chalk": "^4.1.0"
   },
